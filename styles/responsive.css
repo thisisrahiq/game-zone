@@ -1,0 +1,98 @@
+/* small devices  */
+
+@media screen and (max-width:576px) {
+    .text-gradient{
+        color:#FF42A5;
+        font-size: 40px;
+    }
+    .btn-primary{
+        padding:10px 20px;
+        font-size: 16px;
+    }
+    nav,
+    .menu{
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    .menu-item {
+        padding-top: 15px;
+    }
+
+    .social-item {
+        margin: 15px 0px;
+    }
+
+    .banner-container, .gamer-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 20px;
+
+    }
+
+    .banner-img {
+        width: 400px;
+    }
+    .videos-container, .instant-play-container, .career-container{
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        gap: 50px;
+        
+    }
+    .icon-container, .bottom-icon{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: -100px;
+        gap: 40px;
+    }
+   
+}
+
+
+/* tablet devices */
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    nav,
+    .menu{
+        flex-direction: column;
+    }
+    nav {
+        padding: 0px;
+    }
+
+    .menu-item {
+        padding-top: 15px;
+    }
+
+    .social-item {
+        margin: 15px 0px;
+    }
+
+    .banner-container, .gamer-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 20px;
+
+    }
+
+    .banner-img {
+        width: 400px;
+    }
+    .videos-container, .instant-play-container, .career-container{
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        gap: 50px;
+        
+    }
+    .icon-container, .bottom-icon{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: -100px;
+        gap: 40px;
+    }
+   
+
+}
