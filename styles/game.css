@@ -1,0 +1,230 @@
+/* work sans font from google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* shared styles */
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    border-radius: 48px;
+    border: 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.text-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 240px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.frame-img {
+  width: 86.041px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.frame-text-color{
+ 
+}
+
+.frame-text {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0b0223;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-item{
+    padding-left: 32px;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    padding: 15px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.menu a,
+.follow {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.fa-youtube {
+    padding: 0px 24px;
+    color: #c4302b;
+}
+
+.fa-brands {
+    font-size: 1.5rem;
+}
+
+/* banner styles */
+
+.banner-section{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.banner-title{
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-sign{
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-content{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 7px 0;
+}
+
+.btn-secondary{
+    background: #4EC5F7;
+}
+
+.banner-img{
+    width: 700px;
+}
+
+
+/* we are gamer style */
+
+.we-are-gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 200px;
+}
+
+.gamer-img {
+    width: 600px;
+}
+
+.gamer-content{
+    text-align: right;
+}
+
+.gamer-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.gamer-description{
+    font-size: 0.8rem;
+    color: #534C64;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 0;
+
+}
+
+.our-purpose {
+    color: #534C64;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.gamer-motto{
+    color: rgba(83, 76, 100, 1);
+    font-size: 1.3rem;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+/* funny videos styles */
+
+.funny-videos-section{
+    margin: 120px 0px;
+}
+
+.funny-videos-section, .videos-title{
+    color: #0B0223;
+    text-align: center;
+    font-weight: 700;
+}
+
+.videos-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px;
+}
+
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin: 45px 200px;
+}
+
+.videos-img{
+    width: 100%;
+}
+
+.videos-card-description{
+    color: #534C64;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
