@@ -49,8 +49,6 @@ nav {
   padding-right: 20px;
 }
 
-.frame-text-color {
-}
 
 .frame-text {
   font-size: 2.8rem;
@@ -429,4 +427,73 @@ nav {
     font-style: normal;
     font-weight: 600;
     padding-left: 10px;
+}
+
+
+/* footer style */
+
+footer{
+  
+  background: #0B0223;
+  background-size: contain;
+  background-position: center;
+  color:white;
+  padding:60px 0;
+}
+
+
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:40px;
+  
+}
+
+.bottom-logo{
+  width:85px;
+  padding-right:10px;
+  object-fit: contain;
+}
+
+.footer-text {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+
+
+.footer-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom:40px;
+  flex-wrap: wrap;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  padding-bottom:40px;
+}
+
+.policy-menu{
+  display: grid;
+  grid-template-columns: repeat(4,100px);
+  grid-template-rows: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:50px;
+  gap: 50px;
+  font-size: 14px;
+  list-style: none;
+  flex-wrap: wrap;
+  padding:10px;
+}
+.copyright{
+  text-align: center;
 }
